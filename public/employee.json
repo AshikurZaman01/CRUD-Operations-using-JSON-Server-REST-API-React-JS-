@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "age": 35,
+        "position": "Software Engineer",
+        "salary": 85000,
+        "email": "john.doe@example.com",
+        "phone": "123-456-7890"
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "age": 28,
+        "position": "Data Analyst",
+        "salary": 65000,
+        "email": "jane.smith@example.com",
+        "phone": "234-567-8901"
+    },
+    {
+        "id": 3,
+        "name": "Michael Johnson",
+        "age": 42,
+        "position": "Project Manager",
+        "salary": 100000,
+        "email": "michael.johnson@example.com",
+        "phone": "345-678-9012"
+    },
+    {
+        "id": 4,
+        "name": "Emily Davis",
+        "age": 31,
+        "position": "HR Specialist",
+        "salary": 70000,
+        "email": "emily.davis@example.com",
+        "phone": "456-789-0123"
+    },
+    {
+        "id": 5,
+        "name": "Chris Wilson",
+        "age": 45,
+        "position": "Marketing Director",
+        "salary": 110000,
+        "email": "chris.wilson@example.com",
+        "phone": "567-890-1234"
+    },
+    {
+        "id": 6,
+        "name": "Sarah Lee",
+        "age": 29,
+        "position": "Graphic Designer",
+        "salary": 60000,
+        "email": "sarah.lee@example.com",
+        "phone": "678-901-2345"
+    },
+    {
+        "id": 7,
+        "name": "Alex Johnson",
+        "age": 38,
+        "position": "Sales Manager",
+        "salary": 90000,
+        "email": "alex.johnson@example.com",
+        "phone": "789-012-3456"
+    },
+    {
+        "id": 8,
+        "name": "Ryan Garcia",
+        "age": 33,
+        "position": "Financial Analyst",
+        "salary": 75000,
+        "email": "ryan.garcia@example.com",
+        "phone": "890-123-4567"
+    },
+    {
+        "id": 9,
+        "name": "Emma White",
+        "age": 27,
+        "position": "Customer Support",
+        "salary": 55000,
+        "email": "emma.white@example.com",
+        "phone": "901-234-5678"
+    },
+    {
+        "id": 10,
+        "name": "Jason Brown",
+        "age": 40,
+        "position": "Operations Manager",
+        "salary": 95000,
+        "email": "jason.brown@example.com",
+        "phone": "012-345-6789"
+    }
+]

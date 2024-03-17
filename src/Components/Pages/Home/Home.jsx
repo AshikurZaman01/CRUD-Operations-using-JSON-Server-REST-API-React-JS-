@@ -1,8 +1,9 @@
+import Employees from "../Employees/Employees";
 
 const Home = () => {
     return (
         <div>
-            this is home
+            <Employees></Employees>
         </div>
     );
 };
