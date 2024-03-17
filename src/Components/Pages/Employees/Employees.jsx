@@ -1,4 +1,9 @@
-const Employees = () => {
+import EmployeeCard from "./EmployeeCard";
+
+const Employees = ({ employees }) => {
+
+    console.log(employees)
+
     return (
         <div>
             <div className=" mx-auto mt-10">
@@ -25,24 +30,9 @@ const Employees = () => {
                                         </th>
                                     </tr>
                                 </thead>
-
-                                <tbody className="bg-gray-300 divide-y divide-gray-200">
-                                    <tr>
-                                        <td className="px-6 py-4 whitespace-nowrap">name</td>
-                                        <td className="px-6 py-4 whitespace-nowrap">Age Value</td>
-                                        <td className="px-6 py-4 whitespace-nowrap">Email Value</td>
-                                        <td className="px-6 py-4 whitespace-nowrap">Phone Value</td>
-                                        <td className="px-6 py-4 whitespace-nowrap">Position Value</td>
-                                        <td className="px-6 py-4 whitespace-nowrap">Salary Value</td>
-                                        <td>
-                                            <div className="join join-vertical lg:join-horizontal">
-                                                <button className="btn btn-sm join-item btn-primary">Edit</button>
-                                                <button className="btn btn-sm join-item">Button</button>
-                                                <button className="btn btn-sm join-item">Button</button>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
+                                {
+                                    employees.map((employee) => <EmployeeCard key={employee.id} employee={employee}></EmployeeCard>)
+                                }
                             </table>
                         </div>
                     </div>
